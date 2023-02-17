@@ -2,7 +2,7 @@ import java.util.*;
 
 public class CountryDuplicateFinder {
     public static void main(String[] args) {
-        String[] countries = { "Turkey", "Turkey", "India", "USA", "China", "Japan", "India", "Russia", "China", "USA", "Canada" };
+        String[] countries = { "Turkey", "UAE",  "Japan", "Turkey", "India", "USA", "China", "Japan", "India", "UAE" , "Russia", "China", "USA", "Japan", "UAE",  "Canada", "Cambodia", "Tunusia", "UAE",  "Egypt", "Katar" };
         List<String> duplicates = findDuplicates(countries);
         System.out.println("Duplicate countries: " + duplicates);
     }
